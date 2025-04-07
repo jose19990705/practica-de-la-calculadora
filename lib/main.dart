@@ -1,4 +1,5 @@
 import 'package:calculadora/pages/calculadora_page.dart';
+import 'package:calculadora/pages/splash_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,11 +13,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo con josejo',
+      title: 'Calculadora_jose',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
       ),
-      home: const CalculadoraPage(),
+      home: const SplashPage(),
     );
   }
 }
